@@ -1,6 +1,12 @@
 # A swollen left leg — Before You Tick the Box
 
-Dr Abdul Mannan’s 15-minute hospital grand round on acute clots and thrombophilia testing.
+**Dr Abdul Mannan FCPS FRCPath**
+
+Clinical Director, Bangor Haemophilia Centre  
+Thrombosis Lead, Glan Clwyd Hospital  
+Clinical Haematology Lab Lead, Betsi Cadwaladr University Health Board
+
+A 15-minute hospital grand round on acute clots and thrombophilia testing.
 
 **[Open the presentation and downloads](https://abdulmannan1974.github.io/Presentations_A-swollen-Left-leg/)**
 

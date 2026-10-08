@@ -1,6 +1,10 @@
 # Before You Tick the Box
 
-Grand round · 9 October 2026 · Dr Abdul Mannan
+Grand round · 9 October 2026 · Dr Abdul Mannan FCPS FRCPath
+
+Clinical Director, Bangor Haemophilia Centre  
+Thrombosis Lead, Glan Clwyd Hospital  
+Clinical Haematology Lab Lead, Betsi Cadwaladr University Health Board
 
 21 main slides, paced for 15 minutes; two optional reference slides. Arrow keys reveal each step before advancing.
 

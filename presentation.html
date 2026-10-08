@@ -349,7 +349,7 @@ table.t td:first-child{font-weight:600}
 :root{--bg:#f7f5ef;--card:#fffefa;--fg:#162535;--muted:#3f5361;--line:#d4dcd9;--clay:#a83544;--clay-soft:#f5e4e3;--clot:#b22d46;--clot-soft:#f6e2e7;--vein:#346c95;--vein-soft:#e1edf5;--sage:#236b55;--sage-soft:#e1efe7;--amber:#886016;--amber-soft:#f5ecd8;--shadow:0 12px 32px -27px #19334355;--display:'Avenir Next','Segoe UI',Helvetica,Arial,sans-serif;--body:'Avenir Next','Segoe UI',Helvetica,Arial,sans-serif;--mono:'SFMono-Regular',Consolas,monospace;color-scheme:light}
 :root[data-theme=dark]{--bg:#0b1723;--card:#142534;--fg:#f5f3ed;--muted:#c2ccd6;--line:#34495c;--clay:#ff777e;--clay-soft:#391b27;--clot:#ff777e;--clot-soft:#391b27;--vein:#8dc8ef;--vein-soft:#1a2d3e;--sage:#70deb7;--sage-soft:#15342e;--amber:#f6c36b;--amber-soft:#3b3020;color-scheme:dark}
 a{color:var(--vein)}.viewport{padding:0 12px 42px}.slide{padding:52px 78px 76px;gap:22px}.eyebrow{font-size:18px;color:var(--muted);letter-spacing:.12em}h1,h2,h3{font-family:var(--display);letter-spacing:-.038em;text-wrap:pretty;font-weight:750}h2{font-size:62px;line-height:1.08}h3{font-size:33px;line-height:1.18}.body{font-size:29px;line-height:1.4}.small{font-size:24px;line-height:1.38}.lede{font-size:32px;line-height:1.35}.src{font-family:var(--body);font-size:16px;line-height:1.3;color:var(--muted);letter-spacing:0}.tag{font-size:16px}.card{border-radius:8px;padding:24px 26px}.callout{border:1px solid var(--line);border-left:0;border-radius:5px;padding:18px 23px;font-size:27px;background:var(--clay-soft)}.callout.red,.callout.green,.callout.blue{border:1px solid var(--line)}.lecture-footer{position:absolute;left:78px;right:78px;bottom:24px;display:flex;justify-content:space-between;font-size:15px;line-height:1.2;color:var(--muted);border-top:1px solid var(--line);padding-top:12px}.lecture-footer span:last-child{font-family:var(--mono)}
-#s1{padding-left:94px}#s1 .t-wrap{max-width:1000px;gap:27px}#s1 h1{font-size:143px;line-height:.94;letter-spacing:-.065em;font-weight:800;word-spacing:normal}#s1 h1 span:nth-child(2){display:inline}#s1 h1 span:nth-child(3){display:inline;margin-left:.1em}#s1 .lede{font-size:35px;max-width:23em}#s1 canvas{right:-10px;opacity:.65;width:850px;height:850px}#s1 .byline{font-size:27px;font-weight:650}#s1 .byline small{font-size:22px;font-weight:400;max-width:780px}
+#s1{padding-left:94px}#s1 .t-wrap{max-width:1000px;gap:27px}#s1 h1{font-size:143px;line-height:.94;letter-spacing:-.065em;font-weight:800;word-spacing:normal}#s1 h1 span:nth-child(2){display:inline}#s1 h1 span:nth-child(3){display:inline;margin-left:.1em}#s1 .lede{font-size:35px;max-width:23em}#s1 canvas{right:-10px;opacity:.65;width:850px;height:850px}#s1 .byline{font-size:27px;font-weight:650}#s1 .byline small{display:grid;gap:5px;font-size:23px;line-height:1.3;font-weight:400;max-width:860px;margin-top:12px}#s1 .byline .credentials{font-size:23px;font-weight:500;letter-spacing:.015em}
 #s2 .bigq{font:650 41px/1.15 var(--display);letter-spacing:-.03em}.none{font:800 100px/.95 var(--display)}#s2 .form{font-size:24px;padding:25px 28px}#s2 .tick{padding:10px 0}.stamp{font-family:var(--display);font-weight:750}#s2 .row .row p.body{font-size:27px}
 #s3{padding-left:148px!important}.quote{font:500 76px/1.16 Georgia,serif;max-width:1240px}.quote::before{font-family:Georgia,serif;font-size:170px}.quote-point{font-size:32px;color:var(--muted);max-width:1150px}.cite{font:20px/1.4 var(--body)}
 .priority-line{font-size:26px;line-height:1.35;color:var(--muted)}.priority-line b{color:var(--clot)}.steps{gap:15px}.step{padding:24px 21px;border-radius:8px}.step .n{font-size:67px}.step h3{font-size:30px}.step p{font-size:24px;line-height:1.34}.step .n{color:var(--clay)}
@@ -382,10 +382,10 @@ html[data-preview] .bar,html[data-preview] .notes-panel{display:none!important}h
 <div class="eyebrow in" style="--d:0">Medical Grand Round · Friday 9 October 2026</div>
 <h1 class="in" style="--d:1"><span>Before you</span><span>tick the</span><span class="hl">box.</span></h1>
 <p class="lede in" style="--d:2">Acute clots and thrombophilia testing: when, why—and will it change what you do?</p>
-<p class="byline in" style="--d:3">Dr Abdul Mannan<small>Consultant Haematologist · Thrombosis Lead, Betsi Cadwaladr University Health Board</small></p>
+<p class="byline in" style="--d:3">Dr Abdul Mannan <span class="credentials">FCPS FRCPath</span><small><span>Clinical Director, Bangor Haemophilia Centre</span><span>Thrombosis Lead, Glan Clwyd Hospital</span><span>Clinical Haematology Lab Lead,<br/>Betsi Cadwaladr University Health Board</span></small></p>
 </div>
 <aside class="notes">[0:20] Salaam and good afternoon. The title is the whole talk: before you tick the box. Fifteen minutes on one of the most common reflexes in medicine: a clot appears, a thrombophilia screen goes off. My aim is simple. By the end you should know what an acute clot needs from you today, and which of those tests can wait, or never needs sending.</aside>
-<div class="lecture-footer"><span>Dr Abdul Mannan · Medical Grand Round</span><span>01 / 21</span></div></section><section class="slide" data-duration="45" data-main="true" data-title="The reflex" id="s2">
+<div class="lecture-footer"><span>Dr Abdul Mannan FCPS FRCPath · Medical Grand Round</span><span>01 / 21</span></div></section><section class="slide" data-duration="45" data-main="true" data-title="The reflex" id="s2">
 <div class="eyebrow in">Tuesday · Medical take · fictional case</div>
 <div class="row" style="flex:1;min-height:0;gap:44px">
 <div class="grow" style="display:flex;flex-direction:column;gap:22px">
@@ -417,12 +417,12 @@ html[data-preview] .bar,html[data-preview] .notes-panel{display:none!important}h
 </div>
 </div>
 <aside class="notes">[0:45] Picture the take. An adult with a first, left-sided iliofemoral DVT and no obvious trigger. Click: the form fills itself. Seven boxes, one stamp, and everyone feels productive. Ask the room: which result do you need before treating this clot? Pause. Click: none of this routine panel should delay treatment. Today we assess the limb, lungs and bleeding risk, confirm the extent and anticoagulate. Keep this fictional patient in mind; we will come back to them.</aside>
-<div class="lecture-footer"><span>Dr Abdul Mannan · Medical Grand Round</span><span>02 / 21</span></div></section><section class="slide" data-duration="20" data-main="true" data-title="The textbook" id="s3" style="justify-content:center;padding-left:170px">
+<div class="lecture-footer"><span>Dr Abdul Mannan FCPS FRCPath · Medical Grand Round</span><span>02 / 21</span></div></section><section class="slide" data-duration="20" data-main="true" data-title="The textbook" id="s3" style="justify-content:center;padding-left:170px">
 <div class="eyebrow in">What the laboratory textbook says</div>
 <p class="quote in" style="--d:1">Testing during the acute phase of a thrombotic event is <em>not recommended.</em></p>
 <p class="body quote-point in" style="--d:3">The clot, acute illness and treatment can all distort the answer.</p><p class="cite in" style="--d:2">Dacie and Lewis Practical Haematology · chapter 19 · pre-analytical factors</p>
 <aside class="notes">[0:20] Dacie and Lewis makes the point directly: routine testing during the acute event is not recommended. The clot, acute illness and our treatment can distort the result. This is about the reflex panel; rare emergencies such as purpura fulminans need urgent specialist investigation.</aside>
-<div class="lecture-footer"><span>Dr Abdul Mannan · Medical Grand Round</span><span>03 / 21</span></div></section><section class="slide" data-duration="35" data-main="true" data-title="The five jobs" id="s4">
+<div class="lecture-footer"><span>Dr Abdul Mannan FCPS FRCPath · Medical Grand Round</span><span>03 / 21</span></div></section><section class="slide" data-duration="35" data-main="true" data-title="The five jobs" id="s4">
 <div class="eyebrow in">The acute clot</div>
 <h2 class="in" style="--d:1">Five jobs today. The patient comes first.</h2><div class="priority-line in" style="--d:1">Life or limb threatened? <b>Escalate immediately; assess and treat in parallel.</b></div>
 <div class="steps">
@@ -434,7 +434,7 @@ html[data-preview] .bar,html[data-preview] .notes-panel{display:none!important}h
 </div>
 <div class="notlist f f1" style="margin-top:14px"><span class="small" style="font-size:28px;color:var(--fg)">Not on the list:</span><span class="strike">Thrombophilia screen</span></div>
 <aside class="notes">[0:35] These five jobs organise the work, not a rigid queue. If life or limb is threatened, escalate immediately and assess and treat in parallel. Confirm the event and extent, identify its context, assess limb and lungs, weigh bleeding risk and anticoagulate. The history informs the later duration discussion; it does not replace that discussion. Click: the routine thrombophilia screen is missing because it is not a prerequisite for any of these immediate actions.</aside>
-<div class="lecture-footer"><span>Dr Abdul Mannan · Medical Grand Round</span><span>04 / 21</span></div></section><section class="slide" data-duration="40" data-main="true" data-title="Confirm it" id="s5">
+<div class="lecture-footer"><span>Dr Abdul Mannan FCPS FRCPath · Medical Grand Round</span><span>04 / 21</span></div></section><section class="slide" data-duration="40" data-main="true" data-title="Confirm it" id="s5">
 <div class="eyebrow in">Job 1 · Confirm it</div>
 <h2 class="in" style="--d:1">Suspected DVT: the NICE pathway</h2>
 <div class="dx">
@@ -467,7 +467,7 @@ html[data-preview] .bar,html[data-preview] .notes-panel{display:none!important}h
 </div>
 <p class="src">NICE NG158 1.1.2–1.1.10, 1.1.14, 1.3.4 · *Unless anticoagulation has another established indication.</p>
 <aside class="notes">[0:40] NICE NG158 in one picture. Two-level Wells after a history and examination. Click: if DVT is likely, ultrasound within four hours; if you cannot scan in time, D-dimer and interim anticoagulation, scan within 24 hours. Click: if unlikely, D-dimer first, with an age-adjusted cut-off over 50. Click: baseline bloods are FBC, renal and liver function, PT and APTT, and you do not wait for them. And once the clot is confirmed, we start one tool: the DVT checklist.</aside>
-<div class="lecture-footer"><span>Dr Abdul Mannan · Medical Grand Round</span><span>05 / 21</span></div></section><section class="slide" data-duration="45" data-main="true" data-title="The DVT checklist" id="sck">
+<div class="lecture-footer"><span>Dr Abdul Mannan FCPS FRCPath · Medical Grand Round</span><span>05 / 21</span></div></section><section class="slide" data-duration="45" data-main="true" data-title="The DVT checklist" id="sck">
 <div class="eyebrow in">Jobs 1 to 5 · One tool</div>
 <h2 class="in" style="--d:1">One checklist. The same history, every patient.</h2>
 <div class="ck">
@@ -490,7 +490,7 @@ html[data-preview] .bar,html[data-preview] .notes-panel{display:none!important}h
 </div>
 <div class="callout green f f6" style="text-align:center;font-family:var(--display);font-size:29px;font-weight:600;padding:12px 22px">Uniform history → clear context → informed treatment review at 3 months.</div>
 <aside class="notes">[0:45] This is our one-page DVT checklist. It makes the history uniform and plans follow-up. Click through the same questions: where is the clot, and is it the first? What triggered it? Are there cancer symptoms or a persistent risk? What could bleed, and which anticoagulant is suitable? Finally, who reviews the patient, and when? The context informs the duration review alongside bleeding risk and patient preference. Notice there is no reflex thrombophilia box.</aside>
-<div class="lecture-footer"><span>Dr Abdul Mannan · Medical Grand Round</span><span>06 / 21</span></div></section><section class="slide" data-duration="40" data-main="true" data-title="Name the trigger" id="s6">
+<div class="lecture-footer"><span>Dr Abdul Mannan FCPS FRCPath · Medical Grand Round</span><span>06 / 21</span></div></section><section class="slide" data-duration="40" data-main="true" data-title="Name the trigger" id="s6">
 <div class="eyebrow in">Job 2 · Name the trigger</div>
 <h2 class="in" style="--d:1">Provoked or unprovoked? Start with the history.</h2>
 <div class="pv">
@@ -507,7 +507,7 @@ html[data-preview] .bar,html[data-preview] .notes-panel{display:none!important}h
 <div class="callout blue f f2">Recurrence risk comes mainly from the <b>clinical context</b>, with bleeding risk and patient preference guiding duration—not from an inherited panel.<br/><span class="src">Teaching summary · BSH 2022 / NICE NG158</span></div>
 <p class="src">Definitions and cancer advice: NICE NG158 glossary, 1.8.1 and 1.8.2</p>
 <aside class="notes">[0:40] The clinical context is one of the most useful things we establish. Major surgery is not the same as a weak trigger. Pregnancy, the puerperium and hormonal therapy count as provoking circumstances in NICE terminology, but their implications differ. Persistent risks and previous events matter too. At three months, balance recurrence risk, bleeding and the patient’s preferences. The checklist makes the history consistent. Cancer investigation should follow symptoms, signs and the baseline assessment, rather than a reflex whole-body screen.</aside>
-<div class="lecture-footer"><span>Dr Abdul Mannan · Medical Grand Round</span><span>07 / 21</span></div></section><section class="slide" data-duration="70" data-main="true" data-title="Is the limb at risk?" id="s7">
+<div class="lecture-footer"><span>Dr Abdul Mannan FCPS FRCPath · Medical Grand Round</span><span>07 / 21</span></div></section><section class="slide" data-duration="70" data-main="true" data-title="Is the limb at risk?" id="s7">
 <div class="eyebrow in">Job 3a · The limb</div>
 <h2 class="in" style="--d:1">How high does the clot go?</h2>
 <div class="veins">
@@ -559,7 +559,7 @@ html[data-preview] .bar,html[data-preview] .notes-panel{display:none!important}h
 </div>
 <p class="src">Phlegmasia (section 2.10) and May-Thurner (pathophysiology): ESVS 2021 venous thrombosis guideline, Kakkos et al.</p>
 <aside class="notes">[1:10] Watch the clot climb. First the calf; then popliteal and femoral: proximal DVT. Next common femoral and iliac: iliofemoral. The internal iliac branches drain the pelvis. Finally the inferior vena cava: iliocaval disease. This staged drawing is a teaching illustration, not a claim that all DVTs begin in the calf. A blue, tense, very painful leg, especially with sensory or motor change, needs emergency vascular assessment. For symptomatic iliofemoral disease, discuss selected early treatment with vascular or interventional radiology. NICE’s catheter-directed thrombolysis criteria are on screen; iliac involvement alone does not mandate intervention. In left-sided disease, consider compression of the left common iliac vein by the right common iliac artery in the appropriate context.</aside>
-<div class="lecture-footer"><span>Dr Abdul Mannan · Medical Grand Round</span><span>08 / 21</span></div></section><section class="slide" data-duration="45" data-main="true" data-title="Is the life at risk?" id="s8">
+<div class="lecture-footer"><span>Dr Abdul Mannan FCPS FRCPath · Medical Grand Round</span><span>08 / 21</span></div></section><section class="slide" data-duration="45" data-main="true" data-title="Is the life at risk?" id="s8">
 <div class="eyebrow in">Job 3b · The lungs</div>
 <h2 class="in" style="--d:1">PE: grade the risk, then match the treatment</h2>
 <div class="ladder">
@@ -571,7 +571,7 @@ html[data-preview] .bar,html[data-preview] .notes-panel{display:none!important}h
 <div class="callout f f5">Routine primary thrombolysis is <b>not</b> recommended in intermediate or low risk PE. Thrombolysis is for the patient whose life is at stake.</div>
 <p class="src">ESC 2019 acute PE guideline, Tables 4 and 8 and recommendations. NICE NG158 1.2.1, 1.3.12, 1.6.2</p>
 <aside class="notes">[0:45] For PE, decide whether life is at risk. Haemodynamic instability means immediate senior and critical-care involvement, UFH and consideration of reperfusion. Stable patients with RV dysfunction and raised troponin at higher clinical risk need close monitoring; deterioration may trigger rescue reperfusion. A low PESI score alone does not make a patient low risk if RV dysfunction or biomarkers are abnormal. Outpatient treatment requires validated selection and a proper follow-up plan. Routine primary systemic thrombolysis is not for haemodynamically stable PE. This is the ESC risk framework, with NICE management advice, not a substitute for the full local PE pathway.</aside>
-<div class="lecture-footer"><span>Dr Abdul Mannan · Medical Grand Round</span><span>09 / 21</span></div></section><section class="slide" data-duration="55" data-main="true" data-title="What anticoagulation does" id="s9">
+<div class="lecture-footer"><span>Dr Abdul Mannan FCPS FRCPath · Medical Grand Round</span><span>09 / 21</span></div></section><section class="slide" data-duration="55" data-main="true" data-title="What anticoagulation does" id="s9">
 <div class="eyebrow in">Job 5 · Anticoagulate</div><h2 class="in" style="--d:1">Stop the growth. Let fibrinolysis work.</h2>
 <p class="lede in" style="--d:2">Anticoagulants do not directly dissolve the clot.</p>
 <div class="clot-stages">
@@ -580,7 +580,7 @@ html[data-preview] .bar,html[data-preview] .notes-panel{display:none!important}h
 <div class="clot-stage f f2"><span class="stage-no">03 · ENDOGENOUS FIBRINOLYSIS</span><h3>The body breaks it down</h3><div class="vein-track"><div class="clot-shape resolving"></div><div class="blood-flow"></div></div><p>Recanalisation varies; residual clot can remain.</p></div></div>
 <div class="callout f f2">Treat proximal DVT / PE for <b>at least 3 months</b>, then review. Duration depends on recurrence, bleeding and preference.</div>
 <p class="src">ESVS 2021 §2.3 · NICE NG158 §1.3–1.4 · Animation is conceptual, not a measured time course.</p>
-<aside class="notes">[0:55] Watch the first track: untreated, the clot grows. Click: anticoagulation suppresses further coagulation, reducing propagation and embolisation. It does not melt the thrombus. Click: endogenous fibrinolysis and remodelling do the clearing. That process is variable and can remain incomplete, so residual clot is not automatically treatment failure. New or worsening symptoms still deserve assessment. NICE recommends at least three months for proximal DVT or PE, with a planned review. Thrombolysis and mechanical clot removal are separate treatments for selected patients.</aside><div class="lecture-footer"><span>Dr Abdul Mannan · Medical Grand Round</span><span>10 / 21</span></div></section><section class="slide" data-duration="50" data-main="true" data-title="Bleeding risk and extension" id="s10">
+<aside class="notes">[0:55] Watch the first track: untreated, the clot grows. Click: anticoagulation suppresses further coagulation, reducing propagation and embolisation. It does not melt the thrombus. Click: endogenous fibrinolysis and remodelling do the clearing. That process is variable and can remain incomplete, so residual clot is not automatically treatment failure. New or worsening symptoms still deserve assessment. NICE recommends at least three months for proximal DVT or PE, with a planned review. Thrombolysis and mechanical clot removal are separate treatments for selected patients.</aside><div class="lecture-footer"><span>Dr Abdul Mannan FCPS FRCPath · Medical Grand Round</span><span>10 / 21</span></div></section><section class="slide" data-duration="50" data-main="true" data-title="Bleeding risk and extension" id="s10">
 <div class="eyebrow in">Job 4 · Before and after the first dose</div>
 <h2 class="in" style="--d:1">Know what could bleed. Know what extension looks like.</h2>
 <div class="two">
@@ -607,12 +607,12 @@ html[data-preview] .bar,html[data-preview] .notes-panel{display:none!important}h
 </div>
 </div>
 <aside class="notes">[0:50] Before treatment, assess recent bleeding, haemoglobin, platelets, renal function and interacting medicines. Then give a clear safety-net. Worsening swelling, new pain, a blue or cold leg, chest pain, breathlessness or collapse need reassessment. Major bleeding, melaena or a severe new headache also need urgent assessment. Suspected treatment failure needs objective confirmation and a review of adherence, dose, interactions and underlying causes. Involve the treating team before changing anticoagulant strategy; worsening symptoms are not a reason to send a routine thrombophilia panel.</aside>
-<div class="lecture-footer"><span>Dr Abdul Mannan · Medical Grand Round</span><span>11 / 21</span></div></section><section class="slide" data-duration="10" data-main="true" data-title="The reflex" id="s11">
+<div class="lecture-footer"><span>Dr Abdul Mannan FCPS FRCPath · Medical Grand Round</span><span>11 / 21</span></div></section><section class="slide" data-duration="10" data-main="true" data-title="The reflex" id="s11">
 <div class="eyebrow in">Part two</div>
 <h1 class="in" style="--d:1">Now, the reflex.</h1>
 <p class="in" style="--d:2">What is in a thrombophilia screen, what an acute clot and its treatment do to the results, and who should be tested at all.</p>
 <aside class="notes">[0:10] So the patient is anticoagulated. Now the reflex.</aside>
-<div class="lecture-footer"><span>Dr Abdul Mannan · Medical Grand Round</span><span>12 / 21</span></div></section><section class="slide" data-duration="30" data-main="true" data-title="What is in the screen" id="s12">
+<div class="lecture-footer"><span>Dr Abdul Mannan FCPS FRCPath · Medical Grand Round</span><span>12 / 21</span></div></section><section class="slide" data-duration="30" data-main="true" data-title="What is in the screen" id="s12">
 <div class="eyebrow in">What we are actually looking for</div>
 <h2 class="in" style="--d:1">What are we actually looking for?</h2>
 <div class="traits">
@@ -641,7 +641,7 @@ html[data-preview] .bar,html[data-preview] .notes-panel{display:none!important}h
 </div>
 </div>
 <aside class="notes">[0:30] Quick map. Heritable traits: Factor V Leiden and the prothrombin variant are common in Europeans and raise first-event risk three to five times. Protein C, S and antithrombin deficiencies are rare. Acquired: APS, PNH and MPN. Click: the BSH reminds us that the relative risk for recurrence is lower than for a first event, which is why a positive trait rarely changes what we do.</aside>
-<div class="lecture-footer"><span>Dr Abdul Mannan · Medical Grand Round</span><span>13 / 21</span></div></section><section class="slide" data-duration="65" data-main="true" data-title="The clot rewrites the result" id="s13">
+<div class="lecture-footer"><span>Dr Abdul Mannan FCPS FRCPath · Medical Grand Round</span><span>13 / 21</span></div></section><section class="slide" data-duration="65" data-main="true" data-title="The clot rewrites the result" id="s13">
 <div class="eyebrow in">The clot and the drug</div>
 <h2 class="in" style="--d:1">A low—or normal—result can mislead.</h2>
 <div class="card in" style="--d:2;padding:14px 18px">
@@ -660,14 +660,14 @@ html[data-preview] .bar,html[data-preview] .notes-panel{display:none!important}h
 </div>
 
 <div class="callout f f5"><b>If indicated:</b> assess C/S/AT after ≥3 months of treatment <em>and</em> an agreed anticoagulant / assay plan. Never stop treatment simply to send a panel.</div><p class="src">BSH 2022 Table 1 · Chromogenic protein C / free protein S antigen avoid some DOAC effects; clinical confounding remains.</p><aside class="notes">[1:05] The same patient can appear deficient, normal or even high, depending on when and how you test. Click through the columns. Acute illness, recent thrombosis and acquired disease can lower these proteins; recent clot especially affects S and antithrombin, whereas protein C may fall in DIC or severe sepsis. Heparin may lower antithrombin. Warfarin lowers both C and S. DOACs can falsely raise clot-based C/S activity and drug-matched antithrombin assays, hiding a deficiency. The method matters: chromogenic C and free S antigen avoid some direct drug effects. BSH says test these deficiencies, if indicated, after at least three months of treatment. Ongoing interference still needs an agreed plan; three months is not a washout.</aside>
-<div class="lecture-footer"><span>Dr Abdul Mannan · Medical Grand Round</span><span>14 / 21</span></div></section><section class="slide" data-duration="65" data-main="true" data-title="Lupus anticoagulant: the drug in the tube" id="sLA">
+<div class="lecture-footer"><span>Dr Abdul Mannan FCPS FRCPath · Medical Grand Round</span><span>14 / 21</span></div></section><section class="slide" data-duration="65" data-main="true" data-title="Lupus anticoagulant: the drug in the tube" id="sLA">
 <div class="eyebrow in">The lupus anticoagulant trap</div><h2 class="in" style="--d:1">The drug is in the tube, too.</h2>
 <p class="lede in" style="--d:2">LA is detected through a <b>clotting reaction</b>—not a simple antibody concentration.</p>
 <div class="la-diagram"><div class="sample-tube"><span>Patient sample</span><div class="tube-fluid"></div><b>LA?</b><em class="f f1">DOAC / heparin / VKA effect?</em></div><div class="la-arrow">→</div><div class="stopwatch"><div class="clock-face"><i></i></div><h3>Clotting time</h3><p>Screen · mix · confirm</p></div><div class="la-arrow f f2">→</div><div class="la-results f f2"><p class="bad-result">False positive</p><p class="warn-result">False negative</p><p class="small">Drug, concentration and reagent determine the direction.</p></div></div>
 <div class="callout f f3"><b>BSH: avoid routine LA testing on anticoagulation or within 3 months of an acute clot.</b> If the answer matters, agree a plan with the laboratory.</div>
 <p class="small f f3">aCL / anti-β₂GPI avoid this direct interference. A positive result still needs context and persistence ≥12 weeks apart.</p>
 <p class="src">BSH APS 2024 · Favaloro &amp; Pasalic 2023 · Do not omit anticoagulant doses to obtain a test.</p>
-<aside class="notes">[1:05] Lupus anticoagulant is a functional laboratory phenomenon: we time phospholipid-dependent clotting reactions. Click: the patient’s anticoagulant is in the tube as well. Click: it can produce false-positive or false-negative patterns, depending on drug, concentration and reagent. A normal routine PT or APTT does not reliably prove the sample is drug free. Click: BSH suggests avoiding LA testing while anticoagulated or within three months of an acute thrombosis. If the question matters sooner, call the laboratory; do not stop doses to get the result. Anticardiolipin and anti-beta-2-glycoprotein I are different, solid-phase tests. They can start an indicated APS work-up, but a positive result needs context and persistence. Negative solid-phase antibodies do not exclude isolated LA. Confirmed APS may change anticoagulant choice, particularly in triple-positive disease.</aside><div class="lecture-footer"><span>Dr Abdul Mannan · Medical Grand Round</span><span>15 / 21</span></div></section><section class="slide" data-duration="55" data-main="true" data-title="Two questions before any test" id="s14">
+<aside class="notes">[1:05] Lupus anticoagulant is a functional laboratory phenomenon: we time phospholipid-dependent clotting reactions. Click: the patient’s anticoagulant is in the tube as well. Click: it can produce false-positive or false-negative patterns, depending on drug, concentration and reagent. A normal routine PT or APTT does not reliably prove the sample is drug free. Click: BSH suggests avoiding LA testing while anticoagulated or within three months of an acute thrombosis. If the question matters sooner, call the laboratory; do not stop doses to get the result. Anticardiolipin and anti-beta-2-glycoprotein I are different, solid-phase tests. They can start an indicated APS work-up, but a positive result needs context and persistence. Negative solid-phase antibodies do not exclude isolated LA. Confirmed APS may change anticoagulant choice, particularly in triple-positive disease.</aside><div class="lecture-footer"><span>Dr Abdul Mannan FCPS FRCPath · Medical Grand Round</span><span>15 / 21</span></div></section><section class="slide" data-duration="55" data-main="true" data-title="Two questions before any test" id="s14">
 <div class="eyebrow in">Before you tick a box</div>
 <h2 class="in" style="--d:1">Can I trust it? Will it change care?</h2>
 <div class="pile in" id="pile" style="--d:2">
@@ -690,7 +690,7 @@ html[data-preview] .bar,html[data-preview] .notes-panel{display:none!important}h
 <div class="callout f f4" style="text-align:center;font-family:var(--display);font-size:30px;font-weight:600;border:0;border-radius:12px">Can be sent is not the same as should be sent.</div>
 <p class="src">BSH 2022 (2B, 2B, 1B, 2C) · BSH APS 2024 (2C, 2B) · NICE NG158 1.9.1</p>
 <aside class="notes">[0:55] Two questions: can I trust the result today, and will it change care? Click: routine C/S/AT and LA need deferral or a laboratory plan. An abnormal acute result does not establish an inherited deficiency. Click: DNA tests for Factor V Leiden and prothrombin are unaffected by anticoagulants, but rarely change immediate treatment and are not a routine panel. Click: solid-phase antibodies can start an indicated APS work-up. JAK2 and PNH can matter in the right site and phenotype. They still need interpretation and a named reviewer. Click: can be sent is not the same as should be sent.</aside>
-<div class="lecture-footer"><span>Dr Abdul Mannan · Medical Grand Round</span><span>16 / 21</span></div></section><section class="slide" data-duration="65" data-main="true" data-title="Who to test" id="s15">
+<div class="lecture-footer"><span>Dr Abdul Mannan FCPS FRCPath · Medical Grand Round</span><span>16 / 21</span></div></section><section class="slide" data-duration="65" data-main="true" data-title="Who to test" id="s15">
 <div class="eyebrow in">Who to test</div>
 <h2 class="in" style="--d:1;font-size:50px">Start from the clot, not the menu.</h2>
 <div class="algo">
@@ -732,7 +732,7 @@ html[data-preview] .bar,html[data-preview] .notes-panel{display:none!important}h
 </div>
 <p class="src">Grades from BSH thrombophilia testing 2022 and BSH APS 2024 · NICE NG158 1.9 · Exception: purpura fulminans in a neonate or child needs urgent protein C and S (BSH 1B)</p>
 <aside class="notes">[1:05] Start from the clinical problem. A major transient trigger does not usually call for thrombophilia testing. Unprovoked VTE may justify an APS work-up because the drug choice can change; BSH also suggests this after minor triggers. NICE is narrower, focusing on a planned stop. For unusual-site thrombosis, consider aPL and an MPN or PNH question. JAK2 can be relevant in unexplained splanchnic or cerebral venous thrombosis despite a normal count. PNH needs the appropriate cytopenic or haemolytic phenotype. Adult arterial thrombosis and stroke do not call for a routine inherited panel. These are UK BSH/NICE principles; ASH 2023 is broader in selected nonsurgical/hormonal settings, conditionally on largely very-low-certainty evidence. Rare emergencies such as purpura fulminans or suspected catastrophic APS require specialist testing.</aside>
-<div class="lecture-footer"><span>Dr Abdul Mannan · Medical Grand Round</span><span>17 / 21</span></div></section><section class="slide" data-duration="40" data-main="true" data-title="When the reflex harms" id="s16">
+<div class="lecture-footer"><span>Dr Abdul Mannan FCPS FRCPath · Medical Grand Round</span><span>17 / 21</span></div></section><section class="slide" data-duration="40" data-main="true" data-title="When the reflex harms" id="s16">
 <div class="eyebrow in">Why the reflex is not harmless</div>
 <h2 class="in" style="--d:1">A wrong result travels further than a right one</h2>
 <div class="harms">
@@ -743,7 +743,7 @@ html[data-preview] .bar,html[data-preview] .notes-panel{display:none!important}h
 </div>
 <div class="callout f f1" style="font-family:var(--display);font-size:30px;line-height:1.3;font-weight:400">Routine inherited results usually do not change the <b>drug, intensity or monitoring</b> of acute anticoagulation. A specific antithrombin question can be an exception.<br/><span class="src">Teaching summary · BSH thrombophilia testing guideline, 2022</span></div>
 <aside class="notes">[0:40] Four ways the reflex hurts: a false protein S deficiency label follows the family; a drug-affected LA becomes a false APS diagnosis, or true APS is missed; a normal panel gives false reassurance; and early tests need repeating. Click: routine inherited results usually do not change the drug, intensity or monitoring of acute treatment. A specific antithrombin or other urgent specialist question is different. Name the decision before requesting the test.</aside>
-<div class="lecture-footer"><span>Dr Abdul Mannan · Medical Grand Round</span><span>18 / 21</span></div></section><section class="slide" data-duration="40" data-main="true" data-title="Quick fire" id="s17">
+<div class="lecture-footer"><span>Dr Abdul Mannan FCPS FRCPath · Medical Grand Round</span><span>18 / 21</span></div></section><section class="slide" data-duration="40" data-main="true" data-title="Quick fire" id="s17">
 <div class="eyebrow in">Quick fire · click or tap a card</div>
 <h2 class="in" style="--d:1">Six things we still hear on the ward</h2>
 <div class="myths">
@@ -755,7 +755,7 @@ html[data-preview] .bar,html[data-preview] .notes-panel{display:none!important}h
 <button class="myth in" data-flip="6" style="--d:7" type="button"><div class="in2"><div class="fa"><span class="tag">Myth</span><p>"Recurrent miscarriage: send the clotting screen."</p></div><div class="ba"><span class="tag">Evidence</span><p>An inherited panel is not the answer. Consider an APS question; plan sampling and interpretation with specialist input.</p><span class="src">BSH 2022</span></div></div></button>
 </div>
 <aside class="notes">[0:40] Quick fire. Ask the room to shout myth or fact, then click to flip each card. Keep it moving, about seven seconds a card.</aside>
-<div class="lecture-footer"><span>Dr Abdul Mannan · Medical Grand Round</span><span>19 / 21</span></div></section><section class="slide" data-duration="40" data-main="true" data-title="Back to Tuesday" id="s18">
+<div class="lecture-footer"><span>Dr Abdul Mannan FCPS FRCPath · Medical Grand Round</span><span>19 / 21</span></div></section><section class="slide" data-duration="40" data-main="true" data-title="Back to Tuesday" id="s18">
 <div class="eyebrow in">Back to Tuesday</div>
 <h2 class="in" style="--d:1">What we actually did for the patient</h2>
 <div class="close3">
@@ -790,7 +790,7 @@ html[data-preview] .bar,html[data-preview] .notes-panel{display:none!important}h
 </div>
 </div>
 <aside class="notes">[0:40] Back to our patient. Confirmed, unprovoked after careful history, no limb threat, bleeding assessed and anticoagulation started. Because the clot is symptomatic and iliofemoral, discuss selected treatment and possible iliac compression. Send aCL and anti-beta-2-glycoprotein I only for the defined APS question. Plan valid LA and repeat positive antibodies at least twelve weeks apart. A single positive is not APS, and negative solid-phase tests do not exclude isolated LA. At three months, recurrence risk, bleeding and preference guide the duration decision—not a reflex panel.</aside>
-<div class="lecture-footer"><span>Dr Abdul Mannan · Medical Grand Round</span><span>20 / 21</span></div></section><section class="slide" data-duration="25" data-main="true" data-title="Take home" id="s19">
+<div class="lecture-footer"><span>Dr Abdul Mannan FCPS FRCPath · Medical Grand Round</span><span>20 / 21</span></div></section><section class="slide" data-duration="25" data-main="true" data-title="Take home" id="s19">
 <div class="eyebrow in">Take home</div>
 <div class="th">
 <div class="in" style="--d:1"><b>1</b><span>Life and limb first. Confirm extent, assess context and bleeding, then start appropriate anticoagulation.</span></div>
@@ -801,7 +801,7 @@ html[data-preview] .bar,html[data-preview] .notes-panel{display:none!important}h
 </div>
 <p class="final f f1">One job done? <span class="hl">The job is the patient, not the form.</span></p>
 <aside class="notes">[0:25] Five points. Read them slowly. Click: and the last line. Thank you. JazakAllah khair. Happy to take questions, and haematology is always happy to take the call before the form is sent.</aside>
-<div class="lecture-footer"><span>Dr Abdul Mannan · Medical Grand Round</span><span>21 / 21</span></div></section><section class="slide" data-duration="0" data-main="false" data-title="Full assay reference" id="sMatrix">
+<div class="lecture-footer"><span>Dr Abdul Mannan FCPS FRCPath · Medical Grand Round</span><span>21 / 21</span></div></section><section class="slide" data-duration="0" data-main="false" data-title="Full assay reference" id="sMatrix">
 <div class="eyebrow in">Appendix · Full assay reference</div>
 <h2 class="in" style="--d:1">The clot and the drug rewrite the result</h2>
 <div class="card in" style="--d:2;padding:14px 18px">
@@ -823,12 +823,12 @@ html[data-preview] .bar,html[data-preview] .notes-panel{display:none!important}h
 <p class="src">BSH 2022 Table 1 · BSH APS guideline 2024 · Favaloro and Pasalic 2023</p>
 </div>
 <aside class="notes">Optional reference: the complete assay matrix. Do not run through every cell during the fifteen-minute talk. Effects depend on assay and clinical context. Antibody positives need confirmation and interpretation; no direct anticoagulant effect does not mean every result is conclusive.</aside>
-<div class="lecture-footer"><span>Dr Abdul Mannan · Medical Grand Round</span><span>REFERENCE</span></div></section><section class="slide" data-duration="0" data-main="false" data-title="References" id="s20">
+<div class="lecture-footer"><span>Dr Abdul Mannan FCPS FRCPath · Medical Grand Round</span><span>REFERENCE</span></div></section><section class="slide" data-duration="0" data-main="false" data-title="References" id="s20">
 <div class="eyebrow in">References</div>
 <h2 class="in" style="--d:1">Sources behind the decisions</h2>
 <div class="refs in" style="--d:2"><p><b>1</b><a href="https://doi.org/10.1111/bjh.18239" rel="noopener" target="_blank">BSH thrombophilia testing · Arachchillage et al., 2022</a></p><p><b>2</b><a href="https://doi.org/10.1111/bjh.19635" rel="noopener" target="_blank">BSH antiphospholipid syndrome · Arachchillage et al., 2024</a></p><p><b>3</b><a href="https://www.nice.org.uk/guidance/ng158/chapter/Recommendations" rel="noopener" target="_blank">NICE NG158 · VTE diagnosis, treatment and testing</a></p><p><b>4</b><a href="zotero://select/library/items/HHNIPUX7" rel="noopener" target="_blank">Dacie and Lewis · Investigation of a Thrombotic Tendency, chapter 19</a></p><p><b>5</b><a href="https://doi.org/10.1007/978-1-0716-3175-1_15" rel="noopener" target="_blank">Favaloro &amp; Pasalic · Laboratory testing for aPL, 2023</a></p><p><b>6</b><a href="https://esvs.org/guidelines/" rel="noopener" target="_blank">ESVS venous thrombosis guideline · Kakkos et al., 2021</a></p><p><b>7</b><a href="https://doi.org/10.1093/eurheartj/ehz405" rel="noopener" target="_blank">ESC acute PE guideline · Konstantinides et al.</a></p><p><b>8</b><a href="https://doi.org/10.1007/978-3-031-90986-3_4" rel="noopener" target="_blank">Tavasoli et al. · Laboratory diagnosis of protein S deficiency, 2025</a></p></div>
 <aside class="notes">Leave this up during questions.</aside>
-<div class="lecture-footer"><span>Dr Abdul Mannan · Medical Grand Round</span><span>REFERENCE</span></div></section></div></div><div class="notes-panel" id="notesPanel" hidden></div><div class="bar" role="toolbar" aria-label="Slide controls"><button id="prev" type="button" aria-label="Previous reveal or slide">←</button><button id="next" type="button" aria-label="Next reveal or slide">→</button><span id="count">1 / 23</span><span id="stepCount"></span><div class="progress" aria-hidden="true"><i id="prog"></i></div><span id="timer" title="Time since first advance">00:00</span><button id="notesBtn" type="button" aria-pressed="false" title="Speaker notes (N)">Notes N</button><button id="presenterBtn" type="button" title="Presenter view (S)">Presenter S</button><button id="overviewBtn" type="button" title="Overview (O)">Overview O</button><button id="themeBtn" type="button" title="Light or dark (T)">Theme T</button><button id="fsBtn" type="button" title="Full screen (F)">Full screen F</button></div><script>
+<div class="lecture-footer"><span>Dr Abdul Mannan FCPS FRCPath · Medical Grand Round</span><span>REFERENCE</span></div></section></div></div><div class="notes-panel" id="notesPanel" hidden></div><div class="bar" role="toolbar" aria-label="Slide controls"><button id="prev" type="button" aria-label="Previous reveal or slide">←</button><button id="next" type="button" aria-label="Next reveal or slide">→</button><span id="count">1 / 23</span><span id="stepCount"></span><div class="progress" aria-hidden="true"><i id="prog"></i></div><span id="timer" title="Time since first advance">00:00</span><button id="notesBtn" type="button" aria-pressed="false" title="Speaker notes (N)">Notes N</button><button id="presenterBtn" type="button" title="Presenter view (S)">Presenter S</button><button id="overviewBtn" type="button" title="Overview (O)">Overview O</button><button id="themeBtn" type="button" title="Light or dark (T)">Theme T</button><button id="fsBtn" type="button" title="Full screen (F)">Full screen F</button></div><script>
 (function(){
   const stage=document.getElementById('stage');
   const slides=[...document.querySelectorAll('.slide')];
