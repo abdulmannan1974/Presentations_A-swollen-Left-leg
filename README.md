@@ -1,5 +1,7 @@
 # A swollen left leg — Before You Tick the Box
 
+[Browse all teaching presentations](https://abdulmannan1974.github.io/Presentations_A-swollen-Left-leg/presentations/) · [Microcytic anaemia lecture](https://abdulmannan1974.github.io/Presentations_A-swollen-Left-leg/microcytic-anaemia/)
+
 **Dr Abdul Mannan FCPS FRCPath**
 
 Clinical Director, Bangor Haemophilia Centre  
